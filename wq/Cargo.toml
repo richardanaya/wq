@@ -1,0 +1,16 @@
+[package]
+name = "wq"
+version = "0.0.4"
+authors = ["Richard Anaya"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+categories = ["wasm", "command-line-utilities"]
+description = "a tool for converting web assembly into json"
+repository = "https://www.github.com/richardanaya/wq"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+wq-core = {path="../wq-core",version="0"}
+colored = "1.9.3"
